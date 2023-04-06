@@ -1,28 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Rock, Paper, Scissors</title>
+		<title>Arrays</title>
 		<link rel="stylesheet" href="style.css"/>
-	</head>
-	<body>
-	<div>
-		<h1>Rock, Paper, Scissors!</h1>
-		<h2>Choose your weapon...</h2>
-		<form id="rockPaper">
-			<label>Rock, paper or scissors?</label>
-			<input id="formWeapon">
-		</form>
-		<button id="button" onclick="playGame()">Submit</button>
-		<p id="result"></p>
 		<script src="scripts.js"></script>
-	</div>
-	
-	<div>
-			<button id="printLyricsButton">Click here for a song about beer!</button>
-			<div id="lyrics"></div>
-			<script src="scripts.js"></script>
-	</div>
-	
-	
+	</head>
+	<body onLoad="displayNumbers()">
+		<h1>Numbers: <span id="main"></span></h1>
+		<button onclick="sum()">Sum</button>
+		<button onclick="mean()">Mean</button>
+		
 	</body>
 </html>
+	
